@@ -7,7 +7,7 @@ namespace GuessTheNumber
         static void Main(string[] args)
         {
             Random r = new Random();
-            int n = r.Next(100);
+            int n = r.Next(1, 100);
 
             bool w = false;
 
